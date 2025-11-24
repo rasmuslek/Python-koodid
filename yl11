@@ -1,0 +1,12 @@
+fruit = ["õun", "pirn", "mango", "arbuus"]
+print(fruit[0])
+fruit.append("mandariin")
+print(fruit[4])
+fruit[1] = "kirss"      
+print(fruit)
+if fruit[2] == "mango":
+    print("Kolmas puuvili on mango")
+print(len(fruit))
+fruit.remove("õun")
+fruit.reverse()
+print(fruit)
